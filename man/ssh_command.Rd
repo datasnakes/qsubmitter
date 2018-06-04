@@ -28,4 +28,3 @@ Defualt: timestamp.}
 \description{
 Run a commmand on a remote server using ssh.
 }
-

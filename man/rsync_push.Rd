@@ -19,6 +19,5 @@ Paths of files on the remote machine for transfer.}
 Default: TRUE}
 }
 \description{
-Copys files to a remote server using rsync.
+Copies files to a remote server using rsync.
 }
-

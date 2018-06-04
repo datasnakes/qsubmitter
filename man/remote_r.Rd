@@ -17,8 +17,7 @@ Their content will be deparsed and transfered to the remote server.}
 \item{...}{Passed to \code{\link{ssh_command}}}
 }
 \description{
-Run R commands on remote server.
-Variables in the local envrioment can be transfered to the remote computer.
+Run R commands on remote server. Variables in the local envrioment can be transfered to the remote computer.
 }
 \examples{
 \dontrun{
@@ -34,4 +33,3 @@ remote_r(remote, list(a, f), {
 })
 }
 }
-

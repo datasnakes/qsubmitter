@@ -1,11 +1,16 @@
 Package: qsubmitter
 Type: Package
-Title: What the Package Does (Title Case)
+Title: An R package to Submit Arbitrary Jobs to a Remote SGE Cluster
 Version: 0.1
 Date: 2016-02-26
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Authors@R: c(
+    person("Zachary", "Foster", email = "zacharyfoster1989@gmail.com", role = "cre"),
+    person("Robert", "Gilmore", email = "rgilmore@umc.edu", role = "aut"),
+    person("Shaurita", "Hutchins", email = "shutchins2@umc.edu", role = "aut"))
+Description: An R package to Submit Arbitrary Jobs to a Remote SGE Cluster
 License: MIT
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

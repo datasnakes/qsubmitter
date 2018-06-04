@@ -23,11 +23,12 @@ Stores information needed to connect to a remote user
 
 \item{\code{port}}{Port of remote server}
 }}
+
 \section{Methods}{
 
 \describe{
   \item{new}{Make new instance of this class}
   }
 }
-\keyword{datasets}
 
+\keyword{datasets}

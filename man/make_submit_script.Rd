@@ -27,4 +27,3 @@ Default: 1}
 \description{
 Makes the text for a qsub submission script.
 }
-
